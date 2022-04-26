@@ -52,7 +52,6 @@ int main(int argc, char ** argv) {
 	sort_func(lst);
 	show(lst);
 	   char * str = argv[argc-1];
-	   printf("str=%s\n",str);
 	   char ch , tail ; int change;
 	   while (strlen(str)>0) {
 	  	sscanf(str , "%c=%d%c" ,&ch,&change , &tail);
